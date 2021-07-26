@@ -10,21 +10,21 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-onekey-literal-plugin`:
+Next, install `eslint-plugin-onekey-literal-blacklist`:
 
 ```
-$ npm install eslint-plugin-onekey-literal-plugin --save-dev
+$ npm install eslint-plugin-onekey-literal-blacklist --save-dev
 ```
 
 
 ## Usage
 
-Add `onekey-literal-plugin` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `onekey-literal-blacklist` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "onekey-literal-plugin"
+        "onekey-literal-blacklist"
     ]
 }
 ```
@@ -35,7 +35,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "onekey-literal-plugin/rule-name": 2
+        "onekey-literal-blacklist/rule-name": 2
     }
 }
 ```
@@ -43,8 +43,3 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 * Fill in provided rules here
-
-
-
-
-
