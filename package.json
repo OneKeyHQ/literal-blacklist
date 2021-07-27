@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-onekey-literal-blacklist",
+  "name": "@onekeyhq/eslint-plugin-literal-blacklist",
   "version": "0.0.0",
   "description": "OneKey Literal Blacklist",
   "keywords": [
