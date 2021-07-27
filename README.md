@@ -43,9 +43,11 @@ Then configure the rules you want to use under the rules section.
 or
 
 ```json
-extends: [
-    "plugin:@onekeyhq/literal-blacklist/recommended"
-]
+{
+    "extends": [
+        "plugin:@onekeyhq/literal-blacklist/recommended"
+    ]
+}
 ```
 
 ## Supported Rules
