@@ -24,7 +24,7 @@ ruleTester.run("literal-blacklist", rule, {
 
         // give me some code that won't trigger a warning
         {
-            code: "OneKey Hardware Walle",
+            code: "OneKey Wallet",
         }
     ],
 
@@ -32,7 +32,7 @@ ruleTester.run("literal-blacklist", rule, {
         {
             code: "trezor metamask",
             errors: [{
-                message: "You should not use trezor or metamask",
+                messageId: "forbidLiteral",
             }]
         }
     ]
