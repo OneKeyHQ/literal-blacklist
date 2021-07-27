@@ -1,4 +1,4 @@
-# eslint-plugin-onekey-literal-plugin
+# eslint-plugin-onekey-literal-blacklist
 
 OneKey Literal Plugin
 
