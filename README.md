@@ -35,7 +35,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "onekey-literal-blacklist/rule-name": 2
+        "onekey-literal-blacklist/literal-blacklist": 2
     }
 }
 ```
