@@ -1,6 +1,6 @@
 {
-  "name": "@onekeyhq/eslint-plugin-literal-blacklist",
-  "version": "0.0.1",
+  "name": "@onekeyfe/eslint-plugin-literal-blacklist",
+  "version": "0.0.2",
   "description": "OneKey Literal Blacklist",
   "keywords": [
     "eslint",
@@ -16,9 +16,6 @@
   "homepage": "https://github.com/OneKeyHQ/literal-blacklist",
   "author": "OneKey",
   "main": "lib/index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "test": "mocha tests --recursive"
   },
